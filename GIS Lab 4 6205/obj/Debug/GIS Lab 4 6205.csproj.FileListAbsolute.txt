@@ -1,1 +1,72 @@
 D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\GIS Lab 4 6205.exe.config
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\GIS Lab 4 6205.exe
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\GIS Lab 4 6205.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Controls.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Data.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Data.Forms.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Symbology.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Extensions.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Symbology.Forms.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Topology.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Projections.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Modeling.Forms.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Serialization.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Mono.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Projections.Forms.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Controls.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Controls.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Data.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Data.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Data.Forms.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Data.Forms.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Symbology.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Symbology.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Extensions.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Extensions.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Symbology.Forms.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Symbology.Forms.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Topology.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Topology.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Projections.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Projections.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Modeling.Forms.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Modeling.Forms.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Serialization.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Serialization.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Mono.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Mono.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Projections.Forms.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\DotSpatial.Projections.Forms.xml
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\de-DE\DotSpatial.Controls.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\it-IT\DotSpatial.Controls.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\pt-BR\DotSpatial.Controls.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\zh-CN\DotSpatial.Controls.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\zh-CN\DotSpatial.Data.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\cs\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\de-DE\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\en-US\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\it\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\it-IT\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\pt-BR\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\zh-CN\DotSpatial.Symbology.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\zh-CN\DotSpatial.Modeling.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\zh-MO\DotSpatial.Modeling.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\cs\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\de\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\de-DE\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\el\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\it-IT\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\ja-JP\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\lt\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\nl\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\pt\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\pt-BR\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\ro\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\th\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\vi-VN\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\bin\Debug\zh-CN\DotSpatial.Projections.Forms.resources.dll
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.csprojResolveAssemblyReference.cache
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS_Lab_4_6205.Properties.Resources.resources
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.csproj.GenerateResource.Cache
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.exe
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.pdb
