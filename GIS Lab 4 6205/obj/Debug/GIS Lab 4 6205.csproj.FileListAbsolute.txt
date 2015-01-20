@@ -70,3 +70,4 @@ D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS_Lab_4_6205
 D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.csproj.GenerateResource.Cache
 D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.exe
 D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS Lab 4 6205.pdb
+D:\Workspace\C#\Cwiczenia\GIS Lab 4 6205\GIS Lab 4 6205\obj\Debug\GIS_Lab_4_6205.Form1.resources
