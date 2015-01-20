@@ -37,6 +37,10 @@
             this.map1 = new DotSpatial.Controls.Map();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.spatialToolStrip1 = new DotSpatial.Controls.SpatialToolStrip();
+            this.widokToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.przybliżToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oddalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pokażCałośćToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +48,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Menu});
+            this.Menu,
+            this.widokToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(847, 24);
@@ -114,7 +119,7 @@
             this.map1.FunctionMode = DotSpatial.Controls.FunctionMode.None;
             this.map1.IsBusy = false;
             this.map1.IsZoomedToMaxExtent = false;
-            this.map1.Legend = null;
+            this.map1.Legend = this.legend1;
             this.map1.Location = new System.Drawing.Point(205, 52);
             this.map1.Name = "map1";
             this.map1.ProgressHandler = null;
@@ -142,11 +147,39 @@
             // 
             this.spatialToolStrip1.ApplicationManager = null;
             this.spatialToolStrip1.Location = new System.Drawing.Point(0, 24);
-            this.spatialToolStrip1.Map = null;
+            this.spatialToolStrip1.Map = this.map1;
             this.spatialToolStrip1.Name = "spatialToolStrip1";
             this.spatialToolStrip1.Size = new System.Drawing.Size(847, 25);
             this.spatialToolStrip1.TabIndex = 4;
             this.spatialToolStrip1.Text = "spatialToolStrip1";
+            // 
+            // widokToolStripMenuItem
+            // 
+            this.widokToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.przybliżToolStripMenuItem,
+            this.oddalToolStripMenuItem,
+            this.pokażCałośćToolStripMenuItem});
+            this.widokToolStripMenuItem.Name = "widokToolStripMenuItem";
+            this.widokToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.widokToolStripMenuItem.Text = "Widok";
+            // 
+            // przybliżToolStripMenuItem
+            // 
+            this.przybliżToolStripMenuItem.Name = "przybliżToolStripMenuItem";
+            this.przybliżToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.przybliżToolStripMenuItem.Text = "Przybliż";
+            // 
+            // oddalToolStripMenuItem
+            // 
+            this.oddalToolStripMenuItem.Name = "oddalToolStripMenuItem";
+            this.oddalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oddalToolStripMenuItem.Text = "Oddal";
+            // 
+            // pokażCałośćToolStripMenuItem
+            // 
+            this.pokażCałośćToolStripMenuItem.Name = "pokażCałośćToolStripMenuItem";
+            this.pokażCałośćToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pokażCałośćToolStripMenuItem.Text = "Pokaż całość";
             // 
             // Form1
             // 
@@ -180,6 +213,11 @@
         private DotSpatial.Controls.Map map1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private DotSpatial.Controls.SpatialToolStrip spatialToolStrip1;
+        private System.Windows.Forms.ToolStripMenuItem widokToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem przybliżToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem oddalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pokażCałośćToolStripMenuItem;
 
     }
 }
