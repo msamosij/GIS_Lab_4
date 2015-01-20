@@ -31,16 +31,15 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Menu = new System.Windows.Forms.ToolStripMenuItem();
             this.dodajToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuńToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuńWszystkieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.legend1 = new DotSpatial.Controls.Legend();
-            this.map1 = new DotSpatial.Controls.Map();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.spatialToolStrip1 = new DotSpatial.Controls.SpatialToolStrip();
             this.widokToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.przybliżToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oddalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pokażCałośćToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.legend1 = new DotSpatial.Controls.Legend();
+            this.map1 = new DotSpatial.Controls.Map();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.spatialToolStrip1 = new DotSpatial.Controls.SpatialToolStrip();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +59,6 @@
             // 
             this.Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dodajToolStripMenuItem,
-            this.usuńToolStripMenuItem,
             this.usuńWszystkieToolStripMenuItem});
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(64, 20);
@@ -71,18 +69,45 @@
             this.dodajToolStripMenuItem.Name = "dodajToolStripMenuItem";
             this.dodajToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.dodajToolStripMenuItem.Text = "Dodaj";
-            // 
-            // usuńToolStripMenuItem
-            // 
-            this.usuńToolStripMenuItem.Name = "usuńToolStripMenuItem";
-            this.usuńToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.usuńToolStripMenuItem.Text = "Usuń";
+            this.dodajToolStripMenuItem.Click += new System.EventHandler(this.dodajToolStripMenuItem_Click);
             // 
             // usuńWszystkieToolStripMenuItem
             // 
             this.usuńWszystkieToolStripMenuItem.Name = "usuńWszystkieToolStripMenuItem";
             this.usuńWszystkieToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.usuńWszystkieToolStripMenuItem.Text = "Usuń wszystkie";
+            this.usuńWszystkieToolStripMenuItem.Click += new System.EventHandler(this.usuńWszystkieToolStripMenuItem_Click);
+            // 
+            // widokToolStripMenuItem
+            // 
+            this.widokToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.przybliżToolStripMenuItem,
+            this.oddalToolStripMenuItem,
+            this.pokażCałośćToolStripMenuItem});
+            this.widokToolStripMenuItem.Name = "widokToolStripMenuItem";
+            this.widokToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.widokToolStripMenuItem.Text = "Widok";
+            // 
+            // przybliżToolStripMenuItem
+            // 
+            this.przybliżToolStripMenuItem.Name = "przybliżToolStripMenuItem";
+            this.przybliżToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.przybliżToolStripMenuItem.Text = "Przybliż";
+            this.przybliżToolStripMenuItem.Click += new System.EventHandler(this.przybliżToolStripMenuItem_Click);
+            // 
+            // oddalToolStripMenuItem
+            // 
+            this.oddalToolStripMenuItem.Name = "oddalToolStripMenuItem";
+            this.oddalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oddalToolStripMenuItem.Text = "Oddal";
+            this.oddalToolStripMenuItem.Click += new System.EventHandler(this.oddalToolStripMenuItem_Click);
+            // 
+            // pokażCałośćToolStripMenuItem
+            // 
+            this.pokażCałośćToolStripMenuItem.Name = "pokażCałośćToolStripMenuItem";
+            this.pokażCałośćToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pokażCałośćToolStripMenuItem.Text = "Pokaż całość";
+            this.pokażCałośćToolStripMenuItem.Click += new System.EventHandler(this.pokażCałośćToolStripMenuItem_Click);
             // 
             // legend1
             // 
@@ -153,34 +178,6 @@
             this.spatialToolStrip1.TabIndex = 4;
             this.spatialToolStrip1.Text = "spatialToolStrip1";
             // 
-            // widokToolStripMenuItem
-            // 
-            this.widokToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.przybliżToolStripMenuItem,
-            this.oddalToolStripMenuItem,
-            this.pokażCałośćToolStripMenuItem});
-            this.widokToolStripMenuItem.Name = "widokToolStripMenuItem";
-            this.widokToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.widokToolStripMenuItem.Text = "Widok";
-            // 
-            // przybliżToolStripMenuItem
-            // 
-            this.przybliżToolStripMenuItem.Name = "przybliżToolStripMenuItem";
-            this.przybliżToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.przybliżToolStripMenuItem.Text = "Przybliż";
-            // 
-            // oddalToolStripMenuItem
-            // 
-            this.oddalToolStripMenuItem.Name = "oddalToolStripMenuItem";
-            this.oddalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.oddalToolStripMenuItem.Text = "Oddal";
-            // 
-            // pokażCałośćToolStripMenuItem
-            // 
-            this.pokażCałośćToolStripMenuItem.Name = "pokażCałośćToolStripMenuItem";
-            this.pokażCałośćToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.pokażCałośćToolStripMenuItem.Text = "Pokaż całość";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,7 +204,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem Menu;
         private System.Windows.Forms.ToolStripMenuItem dodajToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usuńToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuńWszystkieToolStripMenuItem;
         private DotSpatial.Controls.Legend legend1;
         private DotSpatial.Controls.Map map1;
