@@ -36,6 +36,7 @@
             this.legend1 = new DotSpatial.Controls.Legend();
             this.map1 = new DotSpatial.Controls.Map();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.spatialToolStrip1 = new DotSpatial.Controls.SpatialToolStrip();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -88,7 +89,7 @@
             this.legend1.HorizontalScrollEnabled = true;
             this.legend1.Indentation = 30;
             this.legend1.IsInitialized = false;
-            this.legend1.Location = new System.Drawing.Point(12, 27);
+            this.legend1.Location = new System.Drawing.Point(12, 52);
             this.legend1.MinimumSize = new System.Drawing.Size(5, 5);
             this.legend1.Name = "legend1";
             this.legend1.ProgressHandler = null;
@@ -114,7 +115,7 @@
             this.map1.IsBusy = false;
             this.map1.IsZoomedToMaxExtent = false;
             this.map1.Legend = null;
-            this.map1.Location = new System.Drawing.Point(205, 27);
+            this.map1.Location = new System.Drawing.Point(205, 52);
             this.map1.Name = "map1";
             this.map1.ProgressHandler = null;
             this.map1.ProjectionModeDefine = DotSpatial.Controls.ActionMode.Prompt;
@@ -131,17 +132,28 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 461);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 486);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(823, 158);
             this.dataGridView1.TabIndex = 3;
             // 
+            // spatialToolStrip1
+            // 
+            this.spatialToolStrip1.ApplicationManager = null;
+            this.spatialToolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.spatialToolStrip1.Map = null;
+            this.spatialToolStrip1.Name = "spatialToolStrip1";
+            this.spatialToolStrip1.Size = new System.Drawing.Size(847, 25);
+            this.spatialToolStrip1.TabIndex = 4;
+            this.spatialToolStrip1.Text = "spatialToolStrip1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(847, 631);
+            this.ClientSize = new System.Drawing.Size(847, 656);
+            this.Controls.Add(this.spatialToolStrip1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.map1);
             this.Controls.Add(this.legend1);
@@ -167,6 +179,7 @@
         private DotSpatial.Controls.Legend legend1;
         private DotSpatial.Controls.Map map1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private DotSpatial.Controls.SpatialToolStrip spatialToolStrip1;
 
     }
 }
