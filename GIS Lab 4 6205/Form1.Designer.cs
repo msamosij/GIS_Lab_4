@@ -91,21 +91,21 @@
             // przybliżToolStripMenuItem
             // 
             this.przybliżToolStripMenuItem.Name = "przybliżToolStripMenuItem";
-            this.przybliżToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.przybliżToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.przybliżToolStripMenuItem.Text = "Przybliż";
             this.przybliżToolStripMenuItem.Click += new System.EventHandler(this.przybliżToolStripMenuItem_Click);
             // 
             // oddalToolStripMenuItem
             // 
             this.oddalToolStripMenuItem.Name = "oddalToolStripMenuItem";
-            this.oddalToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oddalToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.oddalToolStripMenuItem.Text = "Oddal";
             this.oddalToolStripMenuItem.Click += new System.EventHandler(this.oddalToolStripMenuItem_Click);
             // 
             // pokażCałośćToolStripMenuItem
             // 
             this.pokażCałośćToolStripMenuItem.Name = "pokażCałośćToolStripMenuItem";
-            this.pokażCałośćToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pokażCałośćToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.pokażCałośćToolStripMenuItem.Text = "Pokaż całość";
             this.pokażCałośćToolStripMenuItem.Click += new System.EventHandler(this.pokażCałośćToolStripMenuItem_Click);
             // 
@@ -154,6 +154,9 @@
             this.map1.SelectionEnabled = true;
             this.map1.Size = new System.Drawing.Size(630, 428);
             this.map1.TabIndex = 2;
+            this.map1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.map1_MouseDown);
+            this.map1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.map1_MouseMove);
+            this.map1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.map1_MouseUp);
             // 
             // dataGridView1
             // 
