@@ -92,5 +92,30 @@ namespace GIS_Lab_4_6205
                 y = e.Y;
             }
         }
+
+        private void daneWarstwyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IMapLayer layer = map1.Layers.SelectedLayer;
+            DataTable dt;
+            
+            if(layer != null)
+            {
+                if(layer is IMapPolygonLayer)
+                {
+                    dt = (layer as IMapPolygonLayer).DataSet.DataTable;
+                    dataGridView1.DataSource = dt;
+                }
+                else if(layer is IMapLineLayer)
+                {
+                    dt = (layer as IMapLineLayer).DataSet.DataTable;
+                    dataGridView1.DataSource = dt;
+                }
+                else if(layer is IMapPointLayer)
+                {
+                    dt = (layer as IMapPointLayer).DataSet.DataTable;
+                    dataGridView1.DataSource = dt;
+                }
+            }
+        }
     }
 }

@@ -40,6 +40,7 @@
             this.map1 = new DotSpatial.Controls.Map();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.spatialToolStrip1 = new DotSpatial.Controls.SpatialToolStrip();
+            this.daneWarstwyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -59,7 +60,8 @@
             // 
             this.Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dodajToolStripMenuItem,
-            this.usuńWszystkieToolStripMenuItem});
+            this.usuńWszystkieToolStripMenuItem,
+            this.daneWarstwyToolStripMenuItem});
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(64, 20);
             this.Menu.Text = "Warstwa";
@@ -181,6 +183,13 @@
             this.spatialToolStrip1.TabIndex = 4;
             this.spatialToolStrip1.Text = "spatialToolStrip1";
             // 
+            // daneWarstwyToolStripMenuItem
+            // 
+            this.daneWarstwyToolStripMenuItem.Name = "daneWarstwyToolStripMenuItem";
+            this.daneWarstwyToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.daneWarstwyToolStripMenuItem.Text = "Dane Warstwy";
+            this.daneWarstwyToolStripMenuItem.Click += new System.EventHandler(this.daneWarstwyToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -217,6 +226,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem oddalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pokażCałośćToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem daneWarstwyToolStripMenuItem;
 
     }
 }
