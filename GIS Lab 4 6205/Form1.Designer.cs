@@ -41,6 +41,9 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.spatialToolStrip1 = new DotSpatial.Controls.SpatialToolStrip();
             this.daneWarstwyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.przesuńWarstweToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wGóreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wDółToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -85,7 +88,8 @@
             this.widokToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.przybliżToolStripMenuItem,
             this.oddalToolStripMenuItem,
-            this.pokażCałośćToolStripMenuItem});
+            this.pokażCałośćToolStripMenuItem,
+            this.przesuńWarstweToolStripMenuItem});
             this.widokToolStripMenuItem.Name = "widokToolStripMenuItem";
             this.widokToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.widokToolStripMenuItem.Text = "Widok";
@@ -190,6 +194,29 @@
             this.daneWarstwyToolStripMenuItem.Text = "Dane Warstwy";
             this.daneWarstwyToolStripMenuItem.Click += new System.EventHandler(this.daneWarstwyToolStripMenuItem_Click);
             // 
+            // przesuńWarstweToolStripMenuItem
+            // 
+            this.przesuńWarstweToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.wGóreToolStripMenuItem,
+            this.wDółToolStripMenuItem});
+            this.przesuńWarstweToolStripMenuItem.Name = "przesuńWarstweToolStripMenuItem";
+            this.przesuńWarstweToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.przesuńWarstweToolStripMenuItem.Text = "Przesuń Warstwe";
+            // 
+            // wGóreToolStripMenuItem
+            // 
+            this.wGóreToolStripMenuItem.Name = "wGóreToolStripMenuItem";
+            this.wGóreToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.wGóreToolStripMenuItem.Text = "W góre";
+            this.wGóreToolStripMenuItem.Click += new System.EventHandler(this.wGóreToolStripMenuItem_Click);
+            // 
+            // wDółToolStripMenuItem
+            // 
+            this.wDółToolStripMenuItem.Name = "wDółToolStripMenuItem";
+            this.wDółToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.wDółToolStripMenuItem.Text = "W dół";
+            this.wDółToolStripMenuItem.Click += new System.EventHandler(this.wDółToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,6 +254,9 @@
         private System.Windows.Forms.ToolStripMenuItem oddalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pokażCałośćToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem daneWarstwyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem przesuńWarstweToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wGóreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wDółToolStripMenuItem;
 
     }
 }

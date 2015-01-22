@@ -117,5 +117,43 @@ namespace GIS_Lab_4_6205
                 }
             }
         }
+
+        private void wGóreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IMapLayer layer = map1.Layers.SelectedLayer;
+            IMapLayer tmp;
+            int index;
+
+            if(layer != null)
+            {
+                index = map1.Layers.IndexOf(layer);
+                if (index < (map1.Layers.Count - 1))
+                {
+                    tmp = map1.Layers[index + 1];
+                    map1.Layers[index + 1] = layer;
+                    map1.Layers[index] = tmp;
+                    legend1.Refresh();
+                }
+            }
+        }
+
+        private void wDółToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IMapLayer layer = map1.Layers.SelectedLayer;
+            IMapLayer tmp;
+            int index;
+
+            if (layer != null)
+            {
+                index = map1.Layers.IndexOf(layer);
+                if (index > 0)
+                {
+                    tmp = map1.Layers[index - 1];
+                    map1.Layers[index] = tmp;
+                    map1.Layers[index - 1] = layer;
+                    legend1.Refresh();
+                }
+            }
+        }
     }
 }
