@@ -1,0 +1,26 @@
+ShpPrefFile
+Color,   0
+ColorRGB, 255  0  0
+Width,   2
+Fill,   0
+LineStyle,   0
+Diameter,   8
+Background, Y
+FilterMode, N
+UseIcon, N
+NearLineMode, Y
+LabelCode, 15
+IconText, 
+TooltipField1, 
+TooltipField2, 
+StatbarField1, 
+StatbarField2, 
+FilterFieldName1, 
+FilterFieldName2, 
+FilterField1Text1, 
+FilterField1Text2, 
+FilterField2Text1, 
+FilterField2Text2, 
+FilterFieldOp, O
+FilterField, 
+EndOfFile
